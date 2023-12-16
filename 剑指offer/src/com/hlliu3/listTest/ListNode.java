@@ -1,4 +1,4 @@
-package com.amarsoft.链表篇;
+package com.hlliu3.listTest;
 
 /**
  * @className:IntelliJ IDEA

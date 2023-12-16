@@ -1,15 +1,13 @@
-package com.amarsoft.链表篇;
-
-import java.util.ArrayList;
+package com.hlliu3.listTest;
 
 /**
  * @className:
- * @description:
+ * @description:反转链表
  * @author:
  * @date:2019-09-02 22:25
  */
-public class Offer_015_反转链表_1 {
-    //todo 需要重新看
+public class Offer_015_Reverse_1 {
+
     public ListNode ReverseList(ListNode head) {
 
         if(head==null){

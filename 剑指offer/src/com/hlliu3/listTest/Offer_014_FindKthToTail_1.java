@@ -1,4 +1,4 @@
-package com.amarsoft.链表篇;
+package com.hlliu3.listTest;
 
 /**
  * @className:链表中倒数第k个节点
@@ -9,7 +9,7 @@ package com.amarsoft.链表篇;
  * @author:
  * @date:2019-09-02 21:57
  */
-public class Offer_014_链表中倒数第k个节点_1 {
+public class Offer_014_FindKthToTail_1 {
     public static ListNode FindKthToTail(ListNode head,int k) {
         ListNode tmpHead = head;
         //统计链表的长度

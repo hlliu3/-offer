@@ -1,4 +1,4 @@
-package com.amarsoft.链表篇;
+package com.hlliu3.listTest;
 
 /**
  * @className:输入两个单调递增的链表，输出两个链表合成后的链表，当然我们需要合成后的链表满足单调不减规则。
@@ -6,7 +6,7 @@ package com.amarsoft.链表篇;
  * @author:
  * @date:2019-09-03 22:11
  */
-public class Offer_016_合并两个或k个有序链表_1 {
+public class Offer_016_MergeSortedList_1 {
     public static ListNode Merge(ListNode list1,ListNode list2) {
         ListNode tmpList1 = null;
         ListNode tmpList2 = null;

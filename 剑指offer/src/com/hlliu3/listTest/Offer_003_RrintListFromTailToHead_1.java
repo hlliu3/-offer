@@ -1,4 +1,4 @@
-package com.amarsoft.链表篇;
+package com.hlliu3.listTest;
 
 import java.util.ArrayList;
 
@@ -16,7 +16,7 @@ import java.util.ArrayList;
  * @author:
  * @date:2019-09-02 21:22
  */
-public class Offer_003_从尾到头打印链表_1 {
+public class Offer_003_RrintListFromTailToHead_1 {
     public static void main(String[] args) {
         ListNode listNode = new ListNode(67);
         ListNode listNode1 = new ListNode(0);
