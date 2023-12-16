@@ -1,4 +1,4 @@
-package com.hlliu3.listTest;
+package com.hlliu3.algorithm.listTest;
 
 /**
  * @className:链表中倒数第k个节点

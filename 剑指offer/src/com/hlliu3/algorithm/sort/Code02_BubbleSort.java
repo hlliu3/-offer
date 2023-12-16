@@ -31,43 +31,7 @@ public class Code02_BubbleSort {
             }
         }
     }
-    //其他所有数偶数次，1个数奇数次
-    public static void findOneDiff(int[] arr){
-        int eor = 0;
-        for (int i : arr) {
-            eor = eor ^ i;
-        }
-        System.out.println(eor);
-    }
-    //其他所有数偶数次，2个数奇数次（不同数a b ）
-    public static void findOneDiff2(int[] arr){
-        int eor = 0;
-        for (int i : arr) {
-            eor = eor ^ i;
-        }
-        //(2个奇数次的数 a^b  二进制位某一位上一定是1，假如是第8位，得到一个数eorT)
-        //找最后边是1的位的数
-        /**
-         * 1010111100 eor
-         * 0101000011 ~eor
-         * 0101000100 ~eor+1
-         * 0000000100 eor & (~eor+1)
-         */
-        int eorT = eor & (~eor + 1);
-        //第8位上是1的所有数和eor'亦或,结果是a或者是b
-        int onlyOne = 0; //eor'
-        for (int i : arr) {
 
-            if((i & eorT) == 1){ //所有eorT那个数最右侧数是1的（eorT所有二进制位只有一个1）
-                onlyOne ^= i;//和eor'亦或
-            }
-        }
-
-
-        System.out.println(onlyOne);
-        System.out.println(eor ^ onlyOne);
-
-    }
     public static void main(String[] args) {
         int[] arr = {32,42,12,65,321,32,32,12,8,23,12,65};
         bubbleSort(arr);
@@ -75,13 +39,6 @@ public class Code02_BubbleSort {
             System.out.print(i + "\t");
         }
 
-        System.out.println();
-        int[] arr1 = {32,32,32,32,22,22,22,12,22,11,11};
-        findOneDiff(arr1);
-
-        System.out.println();
-        int[] arr2 = {32,32,13,22,22,22,12,22,11,11};
-        findOneDiff2(arr2);
     }
 
 }

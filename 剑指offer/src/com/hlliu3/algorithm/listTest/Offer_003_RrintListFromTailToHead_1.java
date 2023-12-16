@@ -1,4 +1,4 @@
-package com.hlliu3.listTest;
+package com.hlliu3.algorithm.listTest;
 
 import java.util.ArrayList;
 
