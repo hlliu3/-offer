@@ -13,7 +13,7 @@ package com.hlliu3.algorithm.sort;
  *  a = a ^ b; a = 甲 ^ 甲 ^ 乙 = 0 ^ 乙 = 乙   b = 甲
  *  必须保证 a指向的内存和b指向的内存是不同的 如果 arr[i] 和 arr[j] 但是i位置不能等于j位置，否则相同位置亦或，结果是0
  */
-public class Code03_SelectOneNum {
+public class Code03_SelectOneOrTwoDiffNum {
     //其他所有数偶数次，1个数奇数次
     public static void findOneDiff(int[] arr){
         int eor = 0;
